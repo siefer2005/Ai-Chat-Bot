@@ -23,3 +23,72 @@ This Android application is a smart chatbot that interacts with users using Goog
 ---
 
 ## 🧱 Project Structure
+ChatAi/
+├── README.md
+├── build.gradle
+├── screenshots/
+│   ├── splash.png
+│   └── chat.png
+├── app/
+│   ├── build.gradle
+│   └── src/
+│       └── main/
+│           ├── java/com/example/chatai/
+│           │   ├── SplashActivity.kt
+│           │   ├── MainActivity.kt
+│           │   ├── viewmodel/
+│           │   │   └── ChatViewModel.kt
+│           │   ├── model/
+│           │   │   └── MessageModel.kt
+│           │   └── util/
+│           │       └── Constants.kt
+│           └── res/
+│               ├── layout/
+│               │   ├── activity_main.xml
+│               │   └── activity_splash.xml
+│               ├── drawable/
+│               │   └── logo.png
+│               └── values/
+│                   ├── strings.xml
+│                   └── styles.xml
+
+
+## 🛠️ Tech Stack
+
+- **Language:** Kotlin
+- **Architecture:** MVVM
+- **API:** [Google Gemini API](https://ai.google.dev)
+- **UI:** XML layouts / Jetpack Compose (if used)
+- **IDE:** Android Studio
+- **Network:** Retrofit / HttpURLConnection
+
+---
+
+## 🔑 Setup & Configuration
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/siefer2005/Ai-Chat-Bot
+
+---
+
+ 🧪Testing
+✅ Unit tests for ViewModel logic
+
+✅ UI tests for splash screen, message rendering
+
+✅ Manual testing on multiple Android versions
+
+✅ Tested with and without network connection
+
+---
+
+📄 License
+This project is licensed under the MIT License.
+
+👥 Authors
+Animesh Ansh Yadav
+
+📬 Contact
+Have questions? Reach out to us at spidypotter2020@gmail.com
+
